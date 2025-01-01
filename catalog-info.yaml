@@ -10,6 +10,22 @@ spec:
   type: service
   lifecycle: production
   owner: Ganeshkumar
+
+
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: Meh
+  description: The infra business unit
+spec:
+  type: business-unit
+  profile:
+    displayName: Infrastructure
+    email: infrastructure@example.com
+    picture: https://example.com/groups/bu-infrastructure.jpeg
+  parent: ops
+  children: [backstage, other]
+  members: [jdoe]
 # apiVersion: backstage.io/v1alpha1
 # kind: Component
 # metadata:
