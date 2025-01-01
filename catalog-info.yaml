@@ -9,7 +9,7 @@ metadata:
 spec:
   type: service
   lifecycle: production
-  owner: Ganeshkumar
+  owner: Meh
 
 ---
 apiVersion: backstage.io/v1alpha1
