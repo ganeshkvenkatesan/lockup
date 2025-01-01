@@ -11,7 +11,7 @@ spec:
   lifecycle: production
   owner: Ganeshkumar
 
----------
+---
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
