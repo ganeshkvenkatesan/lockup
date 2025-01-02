@@ -10,7 +10,7 @@ spec:
   type: service
   lifecycle: production
   owner: Meh
-  providesApis: artist-api
+  providesApis: [artist-api]
 
 ---
 apiVersion: backstage.io/v1alpha1
